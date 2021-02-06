@@ -268,16 +268,20 @@ footer{
     padding-bottom: 31px;
     
 }
-.redes{
+#redes{
+    font-size: 20px;
+    display: inline-block;
+    line-height: 28px;
     position: absolute;
     top: 3920px;
     right: 100px;
-    color: #060A24;
-    display: inline-block;
+    color: #060A24
 }
-.fab{
+footer nav a i{
     padding: 0px 18px;
+    color: #060A24;
 }
+
 @media only screen and (max-width:320px){
 
     .header{
@@ -484,12 +488,11 @@ footer{
         font-size: 14px;
         margin-left: 47px;
     }
-    .redes{
+    #redes{
         top: 5400px;
-        right: 50px;
-        
+        right: 65px;
     }
-    .fab{
+    footer nav a i{
       padding: 16px 8px;
     }
 }
